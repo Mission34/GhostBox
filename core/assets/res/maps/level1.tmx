@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="blocks" tilewidth="32" tileheight="32">
+  <image source="blocks.png" width="96" height="32"/>
+ </tileset>
+ <layer name="wood" width="60" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBARgJYHL0j0QwVMOA0vgfagAAOXAAGg==
+  </data>
+ </layer>
+ <layer name="steel" width="60" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjAIGBiYsmBi5UYAfjIbdKMAFAF+gAB8=
+  </data>
+ </layer>
+ <layer name="glass" width="60" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQCxgRsOExEfBKMAFADzwABk=
+  </data>
+ </layer>
+</map>
