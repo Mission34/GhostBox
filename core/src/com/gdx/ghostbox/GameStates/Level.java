@@ -43,12 +43,12 @@ public class Level extends GameState {
         tex2 = Game.res.getTexture("level2");
         playButton2 = new GameButton(new TextureRegion(tex2,0, 0, 117, 32),
                 Game.V_WIDTH / 2,Game.V_HEIGHT - Game.V_HEIGHT / 9 - 32, cam);
-        tex3 = Game.res.getTexture("level3");
+       /* tex3 = Game.res.getTexture("level3");
         playButton3 = new GameButton(new TextureRegion(tex3,0, 0, 117, 32),
                 Game.V_WIDTH / 2,Game.V_HEIGHT - Game.V_HEIGHT / 9 - 64, cam);
         tex4 = Game.res.getTexture("level4");
         playButton4 = new GameButton(new TextureRegion(tex4,0, 0, 117, 32),
-                Game.V_WIDTH / 2,Game.V_HEIGHT - Game.V_HEIGHT / 9 - 96, cam);
+                Game.V_WIDTH / 2,Game.V_HEIGHT - Game.V_HEIGHT / 9 - 96, cam);*/
         tex4 = Game.res.getTexture("back");
         PlayButtonBack = new GameButton(new TextureRegion(tex4,0, 0, 35, 15),
                 Game.V_WIDTH / 2,Game.V_HEIGHT / 8, cam);
@@ -99,8 +99,8 @@ public class Level extends GameState {
 
         playButton.update(dt);
         playButton2.update(dt);
-        playButton3.update(dt);
-        playButton4.update(dt);
+       /* playButton3.update(dt);
+        playButton4.update(dt);*/
         PlayButtonBack.update(dt);
 
     }
@@ -116,8 +116,8 @@ public class Level extends GameState {
 
         playButton.render(sb);
         playButton2.render(sb);
-        playButton3.render(sb);
-        playButton4.render(sb);
+      /*  playButton3.render(sb);
+        playButton4.render(sb);*/
         PlayButtonBack.render(sb);
 
 
