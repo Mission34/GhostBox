@@ -11,5 +11,6 @@
 
 [Описание и правила игры](https://github.com/Mission34/GhostBox/wiki/%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0 "Описание и правила игры")
 
+[JavaDoc.Руководство программиста ](http://mission34.github.io/jdoc/ "Руководство программиста")
 
 [Добавить коментарий](https://github.com/Mission34/GhostBox/issues/1 "Коментарии")
