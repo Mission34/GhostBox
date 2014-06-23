@@ -9,4 +9,4 @@
 2. Box2D is a 2D physics library. It is one of the most popular physics libraries for 2D games and has been ported to many languages and many different engines, including libgdx.
 
 
-[Текст ссылки](https://github.com/Mission34/GhostBox/issues/1 "Заголовок ссылки")
+[Добавить коментарий](https://github.com/Mission34/GhostBox/issues/1 "Коментарии")
