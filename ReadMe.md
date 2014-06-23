@@ -7,3 +7,6 @@
 ##Использованные библиотеки
 1. Libgdx is a cross-platform game and visualization development framework. It currently supports Windows, Linux, Mac OS X, Android, iOS and HTML5 as target platforms.
 2. Box2D is a 2D physics library. It is one of the most popular physics libraries for 2D games and has been ported to many languages and many different engines, including libgdx.
+
+
+[Текст ссылки](https://github.com/Mission34/GhostBox/issues/1 "Заголовок ссылки")
