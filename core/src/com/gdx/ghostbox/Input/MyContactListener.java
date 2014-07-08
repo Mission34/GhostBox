@@ -30,17 +30,17 @@ public class MyContactListener implements ContactListener {
 		if(fa.getUserData() != null && fa.getUserData().equals("foot")) {
 			numFootContacts++;
 		}
-		if(fb.getUserData() != null && fb.getUserData().equals("foot")) {
-			numFootContacts++;
-		}
-		
-		if(fa.getUserData() != null && fa.getUserData().equals("crystal")) {
-			bodiesToRemove.add(fa.getBody());
-		}
 		if(fb.getUserData() != null && fb.getUserData().equals("crystal")) {
 			bodiesToRemove.add(fb.getBody());
 		}
-		
+
+        if(fb.getUserData() != null && fb.getUserData().equals("foot")) {
+            numFootContacts++;
+        }
+
+        if(fa.getUserData() != null && fa.getUserData().equals("crystal")) {
+            bodiesToRemove.add(fa.getBody());
+        }
 	}
 	
 	// called when two fixtures no longer collide
